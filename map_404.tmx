@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="23" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="25" nextobjectid="15">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2206" name="tileset_07" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_07.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="18" name="wall" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAUC7qYXSATYwcMGr28DfbG4h9gNiXAja13DhcAQAUEhH1
+  </data>
+ </layer>
+ <layer id="24" name="tileset7" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzticENQFAUBPf6XtADevj0f0cP6IF/sw3sZQ9cTDLJJAO8wxLASrfwW7HzHfQMvxUX301r+K1oEmhpl34rer6Bjum3ovBNdE6/f77jAVoQN8M=
+  </data>
+ </layer>
+ <layer id="19" name="bg_0" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi5YBkrA8Ny1oF2BSpYyopKfwPS34H4Bysq+ycZ7t7FikpzszEw8AAxLxsqm4+NdLPPs6LSCkAzFIFYiQ2VrUyG2aOAugAARF4OSw==
+  </data>
+ </layer>
+ <layer id="23" name="toile" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxlMZmVgmMKKyaYGWAE0ayUrJnsUDCwAANT0BRk=
+  </data>
+ </layer>
+ <layer id="20" name="enemy" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjCQAAAP0AAE=
+  </data>
+ </layer>
+ <layer id="21" name="front" width="23" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwlcOBgYXDloY3Yk0NwoGpmdBzQ3n0ZmNwPNbaGR2aOAgQEAJ44DYQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="0"/>
+   <property name="defaultCharaRnd" type="float" value="0"/>
+  </properties>
+  <object id="2" name="gate0" type="gate" x="384" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_403"/>
+    <property name="data2" value="gate2"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="object1" type="object" x="1824" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="object_trash"/>
+    <property name="data" value="trash"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectCoin" value="20"/>
+    <property name="objectHP" value="8"/>
+   </properties>
+  </object>
+  <object id="9" name="object_toilet2" type="object" x="1536" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="object_toileDoor"/>
+    <property name="data" value="common_toilet"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectHP" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="10" name="object_toilet" type="object" x="1248" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="object_toileDoor"/>
+    <property name="data" value="common_toilet"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectHP" type="int" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

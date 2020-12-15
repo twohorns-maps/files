@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="33" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="58" nextobjectid="20">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="49" name="bg_1" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzticENQEAUBf/ttYwe0IPVA3pAD2hkp4F/fInDTjLJJBPxL3pFDNjJ3xkTb8ZR/s4ovBUX+Ttj5x24yd8ZF+/GU/7OeHkfPvJ3o5FRAUcBcjo=
+  </data>
+ </layer>
+ <layer id="50" name="wall" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAx2z0x+gAmxgtwagbRt0wVNzwnZ2B4QcQf2OnPRuXG+gZFvQO96EAAEPNRKk=
+  </data>
+ </layer>
+ <layer id="51" name="ex" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzty7cNgFAQBNGfXdfYErAlYEvAloBth2nhdAlIjPSi1Tr3zjxxzkeAEBFisW3aEn4pMuQoUIpt01bxq9GgRYdebJu2gd+ICTMWrGLbtG38dhw4ceEW2/b396UetVs+aA==
+  </data>
+ </layer>
+ <layer id="52" name="ex2" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhaoIadgaGWnXQ5aoKJQDsm4bAHnxw1wTKgHctx2INPjppgN9COPTjswSdHTXABaMdFHPbgk6MmeAq04xkOe/DJURP8AtrxG4c9+ORGwdABABg5FUc=
+  </data>
+ </layer>
+ <layer id="53" name="desk" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA7MGRnYDBiH1g3uAHtd6fADdwcDAw8HBD2JzYGhs9A/IWNNDOigfbHUOAGBaD9ilA3sAPN4QBiThLNKwCqL6TADaZA+82gbpABmiMLxHIDHLejgDQAAFMmBzg=
+  </data>
+ </layer>
+ <layer id="54" name="tileset_02" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAP2sTEw7AfiA2zE8WkBLgPNvgLEV9mI44+C4QMAaO0OmA==
+  </data>
+ </layer>
+ <layer id="57" name="cartain" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicgJeDgYEPiPmBWICDMJ8WQAlorjIQqwCxKgdhPq2BFQdpfFoAfw7S+LQAKRyk8WkBKjlI49MC9HGQxh8FQxsAAIm9CW0=
+  </data>
+ </layer>
+ <layer id="55" name="enemy" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNgBAAWsAAE=
+  </data>
+ </layer>
+ <layer id="56" name="front" width="33" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjqERgDAUxZ7rh/09sAOwQ8sOtDsAnmyA45nmLjqROn8yJWnGJfkeVtob7saHTLvgYXw4aVdsxoeL9o2P8SFCGnAM30Pnmxce2Qxz
+  </data>
+ </layer>
+ <objectgroup id="46" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="3"/>
+   <property name="defaultCharaRnd" type="float" value="0.6"/>
+  </properties>
+  <object id="2" name="gate0" type="gate" x="2496" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_009"/>
+    <property name="data2" value="gate6"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="locker0" type="object" x="288" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker_hoken_0"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="10" name="locker1" type="object" x="384" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker_hoken_1"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="11" name="chara0" type="chara" x="2016" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="seisui_end"/>
+    <property name="tag" value="hoken"/>
+   </properties>
+  </object>
+  <object id="12" name="chara1" type="chara" x="576" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_2_room"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_2"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_2_toilet"/>
+    <property name="if_true" value="hoken_2"/>
+    <property name="tag" value="hoken_2"/>
+   </properties>
+  </object>
+  <object id="13" name="chara2" type="chara" x="768" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_0_room"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_0"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_0_toilet"/>
+    <property name="if_true" value="hoken_0"/>
+    <property name="tag" value="hoken_0"/>
+   </properties>
+  </object>
+  <object id="14" name="chara3" type="chara" x="1056" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_1_room"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_1"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_1_toilet"/>
+    <property name="if_true" value="hoken_1"/>
+    <property name="tag" value="hoken_1"/>
+   </properties>
+  </object>
+  <object id="15" name="chara4" type="chara" x="1248" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_3_room"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_3"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_3_toilet"/>
+    <property name="if_true" value="hoken_3"/>
+    <property name="tag" value="hoken_3"/>
+   </properties>
+  </object>
+  <object id="17" name="pos_bed" type="position" x="960" y="576" width="96" height="96">
+   <properties>
+    <property name="csb" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="disp_name" value=""/>
+   </properties>
+  </object>
+  <object id="18" name="chara0_2" type="chara" x="864" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_cleared"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken"/>
+    <property name="direction" value="right"/>
+    <property name="if_true" value="seisui_end"/>
+    <property name="tag" value="hoken"/>
+   </properties>
+  </object>
+  <object id="19" name="object1" type="object" x="1632" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="object_trash"/>
+    <property name="data" value="trash"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectCoin" value="20"/>
+    <property name="objectHP" value="8"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

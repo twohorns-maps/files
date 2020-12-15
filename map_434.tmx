@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="27" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="108" nextobjectid="58">
+    <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="2206" name="tileset_04" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_04.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="2647" name="tileset_05" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_05.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3088" name="tileset_06" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_06.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3529" name="tileset_07" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_07.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3970" name="tileset_08" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_08.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <layer id="75" name="wall" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYICABn7aYXRAK3OxAWLVUcOMUbuGnl1ZQJwNxDlksqnh3lGAHwAAs+8lOw==
+  </data>
+    </layer>
+    <layer id="92" name="ts7" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBj+gJGfgYEJiJn5yWOTAsSA6sWBWIKfPDYpQBuoXgeIdfnJY5MCHIDqHYHYiZ88NikgFKg+DIjD+cljj4LhBQDXUxJs
+  </data>
+    </layer>
+    <layer id="98" name="ts5" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBCwAEpAAB
+  </data>
+    </layer>
+    <layer id="102" name="ts5_1" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgF1Aa3uRgY7gDxXS7a2/UBaMdHIP5EB7tYuRkY2ICYnZv2dkkB7ZAGYhk62DUKBjcAAMF4Bkk=
+  </data>
+    </layer>
+    <layer id="107" name="ts0_1" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFQxV8ZWFg+AbE34H4BxD/ZKGdXVysDAzcQMwDxLxAzMdKO7vkgWYrALEiECsBsTIN7RoFgx8AAG9qBfs=
+  </data>
+    </layer>
+    <layer id="104" name="ts3" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFww2wcjAwsHHQxy4poD3SdLJLH2iPARBbA7ENENvSwd4AoB2BQBxEJz+OAkwAAObIAqc=
+  </data>
+    </layer>
+    <layer id="105" name="ts1" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgF1AQrmeln1z462nWZjna9oKNdf+lo1yggDwAADtsELw==
+  </data>
+    </layer>
+    <layer id="106" name="ts0" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBj+oIyJMkwK6GaiDJMCFjBRhkkBW5kow6SAU0yUYVLAfSbK8CigPQAAIjdAsQ==
+  </data>
+    </layer>
+    <layer id="103" name="enemy" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBCwAEpAAB
+  </data>
+    </layer>
+    <layer id="79" name="front" width="27" height="11">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFIwVI8DAwSAKxFA/t7dIF2qEHxPp0sMsJaIczELvQwa5woB0RQBxJB7tGAQQAACU2Azc=
+  </data>
+    </layer>
+    <objectgroup id="37" name="objects">
+        <properties>
+            <property name="BGM" value=""/>
+            <property name="bg_back" value="1"/>
+            <property name="bg_front" value="-1"/>
+            <property name="defaultCharaMax" type="int" value="4"/>
+            <property name="defaultCharaRnd" type="float" value="0.5"/>
+        </properties>
+        <object id="45" name="gate1" type="gate" x="864" y="432" width="192" height="240">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="map_435"/>
+                <property name="data2" value="gate0"/>
+                <property name="enemy_action" value="true"/>
+            </properties>
+        </object>
+        <object id="57" name="gate0" type="gate" x="1488" y="432" width="192" height="240">
+            <properties>
+                <property name="creampied_talk" value=""/>
+                <property name="csb" value="empty"/>
+                <property name="damaged_talk" value=""/>
+                <property name="data" value="map_412"/>
+                <property name="data2" value="gate_hospital_top"/>
+                <property name="dead_talk" value=""/>
+                <property name="depth" value=""/>
+                <property name="depthBack" value="0"/>
+                <property name="depthFront" value="0"/>
+                <property name="detail" value=""/>
+                <property name="direction" value=""/>
+                <property name="disp_name" value=""/>
+                <property name="disp_name_type" value=""/>
+                <property name="disp_name_value" value=""/>
+                <property name="enemy_action" value="true"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+                <property name="objectCoin" value="0"/>
+                <property name="objectHP" value="0"/>
+                <property name="objectHeart" value="0"/>
+                <property name="objectItemId" value="0"/>
+                <property name="tag" value=""/>
+            </properties>
+        </object>
+    </objectgroup>
+</map>

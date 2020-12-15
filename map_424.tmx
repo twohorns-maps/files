@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="36" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="115" nextobjectid="53">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2206" name="tileset_04" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_04.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2647" name="tileset_05" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_05.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3088" name="tileset_06" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_06.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3529" name="tileset_07" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_07.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3970" name="tileset_08" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_08.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="75" name="wall" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOGvhph8kB5Oqjlbmj7qGNPlqZO+oewvqe8DEwPATiR0D8mI86fFr5cxQMDAAAAFsoaA==
+  </data>
+ </layer>
+ <layer id="109" name="ts7" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzty7cNgAAMRFGXBNkbEGYg7F8TZiDMQKj5O9gUSHzpFVecyHeaVWTAiEljtqed/4IVm8ZsTzf/AycujdmechNJkCKzmO2p5l+gRGUx21PPv0GLzmL239+bPZA2RTE=
+  </data>
+ </layer>
+ <layer id="113" name="ts3" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDASw5mBgsAFiWw7y5KkNAoD2BAJxEA77CMmPguEPAIKIA68=
+  </data>
+ </layer>
+ <layer id="111" name="ts7_1" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBge4DwveXK0Ak/w2IlPjlbgJx478cnRCvDxkSdHK6CMx058crQCFnjsxCdHK+CLx058cqNgeAEArVcHgw==
+  </data>
+ </layer>
+ <layer id="112" name="ts3" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwglQOBoY0joF2BQJUAd1SPYjc0w90y4RB5J5RMPwBAApfAxA=
+  </data>
+ </layer>
+ <layer id="110" name="ts0" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztw1ERABAABUFzTZVQQgkllFBCFSHe/TB2Zku5R8WfaPgTHX9i4E9M/ImFP7Hxf285h7hdBw==
+  </data>
+ </layer>
+ <layer id="108" name="ts5" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxU85WJgeMY10K5AgF9At/weRO7h52ZgEOAeaFcggArQLaqDyD2jYBSgAwBliwR9
+  </data>
+ </layer>
+ <layer id="114" name="semi_front" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDEZgycfAYAXE1nwD7RII8AO6wx+IAwaJe0YB/QEAXYgB8A==
+  </data>
+ </layer>
+ <layer id="79" name="front" width="36" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoIAwAGMAAB
+  </data>
+ </layer>
+ <objectgroup id="37" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="4"/>
+   <property name="defaultCharaRnd" type="float" value="0.5"/>
+  </properties>
+  <object id="43" name="gate0" type="gate" x="1008" y="432" width="288" height="240">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_412"/>
+    <property name="data2" value="gate_live"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="46" name="gate1" type="gate" x="2160" y="432" width="288" height="240">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="map_425"/>
+    <property name="data2" value="gate0"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value=""/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value="left"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="47" name="staff" type="chara" x="1440" y="480" width="288" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="staff"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="semi_front"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value="staff"/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value="staff"/>
+   </properties>
+  </object>
+  <object id="48" name="staff_touch" type="touch" x="1968" y="96" width="96" height="576">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="staff_touch"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value="staff_done"/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="49" name="live1" type="chara" x="762.099" y="487.91" width="192" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value="live1"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value="live1_go"/>
+    <property name="if_true" value="live2_finished"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value="live1"/>
+   </properties>
+  </object>
+  <object id="50" name="live1_go" type="default" x="934.117" y="757.006" width="192" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="live1_go"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value="live1_go"/>
+    <property name="if_true" value="live2_finished"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="51" name="chair0" type="chair" x="672" y="576" width="144" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectHP" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="52" name="chair1" type="chair" x="816" y="576" width="144" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectHP" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-up" width="40" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="33" nextobjectid="10">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="26" name="bg_1" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztidENQFAUxe7fWRk7YAfsgB08O2ARXeB+H5LXpEmTRvyHRhEtdvJ2Rs8bcJS3MybejIu8nbHyNtzl7YyDV/CUtzMu3o2PvF2pfIUX8CGP0Q==
+  </data>
+ </layer>
+ <layer id="27" name="wall" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAALVbc+DEb/TE6ALljsIBR91EGRt1HGRiq7vvGzsDwHYh/sA8sG5v7BhMY7O4bSgAAzClF+w==
+  </data>
+ </layer>
+ <layer id="30" name="ex" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzty8cNhEAQRNG5ddbYEICFELAhYJYQsOnwU2ikPiDNl96pVM59r0CcCxEhRoJU7DZtGb8cBX4oUYndpq3m16BFhx6D2G3aRn4TZiz4YxW7TdvGb8eBExdusdt8Pt+7HmPEUzU=
+  </data>
+ </layer>
+ <layer id="31" name="ex2" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzTEVgDAQBNHrzjSIABFBBIgAEURE0mQNbLNvq8C0U/yIeVoyYk3vc7bB2ImjPmcFxkEc9Tk7YVzEUZ+zG8ZDHPU5e2FU4qjPWYPRiaO+v283ANGtH+o=
+  </data>
+ </layer>
+ <layer id="29" name="enemy" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAEYgZiJBnFzzyAViQCxOgji55pELtIFYhwRxcs0bBaNgqAAAC1sBlg==
+  </data>
+ </layer>
+ <layer id="32" name="desk" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAu4ORgYeDiw86klRwlQAJqjyIGdTy05SoAp0BwzDux8asmNgpELAFvXBqY=
+  </data>
+ </layer>
+ <layer id="28" name="front" width="40" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzrERgCAQBdGfcdp/jvag9oD0IPag5m4BxnDOsDObP6n392KQJp5Da8l3C66VN6e+hGvn7NR34Cp8OvVduG5+nPrMpIFHay3p1e4F9aIMcw==
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="3"/>
+   <property name="defaultCharaRnd" type="float" value="0.3"/>
+  </properties>
+  <object id="2" name="gate0" type="gate" x="3168" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_012"/>
+    <property name="data2" value="gate3"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="chara0" type="chara" x="1440" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_1"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_1"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_1"/>
+    <property name="if_true" value="hoken_start"/>
+    <property name="tag" value="hoken_1"/>
+   </properties>
+  </object>
+  <object id="9" name="chara0" type="chara" x="648" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="data" value="hoken_1_cleared"/>
+    <property name="data2" value="0"/>
+    <property name="detail" value="hoken_1"/>
+    <property name="direction" value="right"/>
+    <property name="if_false" value="hoken_1_seisui"/>
+    <property name="if_true" value="seisui_end"/>
+    <property name="tag" value="hoken_1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

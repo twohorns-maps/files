@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="80" height="26" tilewidth="96" tileheight="96" infinite="0" nextlayerid="72" nextobjectid="26">
+    <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="2206" name="tileset_04" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_04.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="2647" name="tileset_05" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_05.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3088" name="tileset_06" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_06.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3529" name="tileset_07" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_07.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <tileset firstgid="3970" name="tileset_08" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+        <image source="tileset_08.png" trans="ff00ff" width="2048" height="2048"/>
+    </tileset>
+    <layer id="67" name="tileset4_2" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztlUdOxEAQRXsIkr0AdkO4xRCuQLoC6QqEuQLpMKQrkJbAbghLYDeEJbDiS3RJbcuW/dVeFFJ96Ukltb7s7sUr5/6ymTq3DXbAVsXcTZ2a3CTO3YK7pN7cdEeyizfZBwdgr2I+VPR+z7jDC3hN6s1NdyQdvMkMmAXTFfOcovf7wh2+wU9Sb266I5nHmyyCJbBQMS+DI3RPwTE4IeYz/83YvmQE/zIKxtJ6c9MdyQrmNbAOVivmDXCOe1yBC3BJzNf+/rF9iRb/sfujh+4DeAT3xPzkvxnbl2jxH7s/+ui+gw/wRsyf/puxfW3+Y/dHCwyCITBAzMPeGbF9bf5j90cbTIBJME7MU/6bsX1t/mP3h/kv6z92f5j/sv5j94f5L+s/dn+Y/7L+Y/dHL3BSmbPCFPkvf8b0JVr8x+6PfuCkMmeFKfJf/ozpS7T4j90frcBJZc4KU+S//BnTl2jxH7s/2oGTypwVpsh/+TOmb7FYLBaLxWKxWP5ffgF68n2d
+  </data>
+    </layer>
+    <layer id="68" name="tileset3" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztlEEKgDAMBIMK9gfqH9T/f0r9gjmnUAhJQZcdyKGEgfQyIv/nmkVunWeu33aX7SAwFJFRZyr12+6yHQQW/ceqs5X6bXfZDgK7/uPQOUv9trtsBwG0/rVu6+Gj9a91Ww8frX+t23r4aP1r3dbDZ/9iPvsX89m/mM/+xXy0/lm8/fP6aP2zePvn9dH6Z/H2z+uj9c/i7V+2TwghhBBCCPkGL1JKnR8=
+  </data>
+    </layer>
+    <layer id="70" name="tileset5_1" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztlEkKw0AMBHVMPH5mljd4eUOWN2R5VpY3ZDlHJjkIYU8YrIvGXdCHNvSAMBQRmDKXQHQVuasucwv2G+88+IanyFt1mVew33hnVhLNRYLqMkVpvwHTxrP/FgXRkrPirIvvt4rfrEVa1Ztgt+/w7L+Kb645Daf93b/hN7cie9V3wW7fkZv/DnzfUeSs+unPPxu7B2nAf/Af/GcH/OePnPwXo89fKQztc/JfjD5/pTC0z8l/Mcb6C/4DAAAAAADANx+h7Ei/
+  </data>
+    </layer>
+    <layer id="65" name="tileset4" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJzt18kJQkEQBNC52V8jEoxBMAbBGEzCFNxScEvBLQW3FNzOFvhBaAbnUDBzqQfFNPThM3Mpfgg//ep7DhKnxA31PpSR3o/Srt+vkzglrlu/Ty9xSpz6g6P+4Kg/OOoPjvqDo/7g5OiPsYUwQabIzM1z4/cl5eiPBe64RFbI2s0b4/cl5eiPLe64Q/bIwc1H4/cl5eiPE+54Ri7I1c034/cl5eiPO+74QJ7Iy81v4/cl5eiPBr5hSIU03dyq+H1J+v8QEREREfnvAwzwelw=
+  </data>
+    </layer>
+    <layer id="66" name="tileset4_1" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztz7ENgDAQBEGn3xOiB0QPQBP07oSAwOFbsl4z0UkbXWsAAAAA69ljbq/u/P2/v71FXq/uGXw9Iq9X9w6+XpHXAQCANXWVxAlJ
+  </data>
+    </layer>
+    <layer id="69" name="tileset5" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztlcsNgkAURWc9tOKvBX8tKGAJCliCApaggCUoYAn+GvPuZ+FLJpo43pOc5G5mMWfzlCKEEEIIIYRICbRSIfS1uRf6/fuOp1QX9mBfuAfe5//1LWI0SmCkzb0W9BuixQiO4US4pw71y9Aoh6k2907Qb4YWc+jDQLhDh/qVaFTBQpv7KOi3RIsVjGAs3IlD/Ro0amGtzX0R9NugxRamMBPu3KF+tvdjjxYHWMBSuCuH+tnejxNanGENG+FuHepnez+uaHGDd/gQ7qdD/Wzvx79jez8IIYQQQshv8QJmrmU9
+  </data>
+    </layer>
+    <layer id="71" name="tileset5_1" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztlTkOglAYBqnhOi5ncDmCpUsLauPSgnoFUa8A6hU8mJPQEEJYkhcSn98k03x51eQlv+MIIYQQQgghRDfM3GZbHT3Pcfo4wKFXv9tCQKs5LnCJKzfb2jKizRgnOPXqd1uIaLXDPR7w6GabaEZc0qpsq8LnXwW4xg1uc/+suPuW/cG0pFXZVkVIkwhPeMZLrlFxDy3rZ+J+XGkS4w3v+Mg1Ku5Xy/qZuB8JTVJ84gvfuUbFPbGsn4n78WnRpM3bX8DE/fhnTNwPIYQQQogu+QJKyzGj
+  </data>
+    </layer>
+    <layer id="56" name="tileset0" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJzt0oEJgEAQA8H7/rtTe9DvQcXUcAgizEBgC0gVAAAAAAAA8JZtVC3ZOnSnZ7Znh271nZ3ZpVv99f//3g8h6hzA
+  </data>
+    </layer>
+    <layer id="62" name="tileset0_1" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztwwEJACAQBLDn61vCEpYwlSEOBWGDVQEAAAAAAACvjf77LbNNLqPb6AEtp8YB
+  </data>
+    </layer>
+    <layer id="47" name="wall" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJzt0sEJwDAMBEElacApJ/03ZvdwASMzA/fQd1EVAAAAAPT2vWdsZ7/u9Mvol9Evo19Gv8z2fqPqWrvXntHvPuEHgH9NS6EVyQ==
+  </data>
+    </layer>
+    <layer id="54" name="tileset8" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztyFkVgmAUAOG/AZ1VJIILRpDFCG5EcI2gIhGYCPdZZ875XiYlMzMzMzMzMzMz+9VmWUo55igwwTTzR/8Ka5TYYIGlP/xrNGixwxaVP/yPOOGMDnsc/OF/wx0PPHHB1R/+H/T4YsALb3/4m5n9ayNkS3cQ
+  </data>
+    </layer>
+    <layer id="64" name="tileset0_3" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztzzEKgDAQRNHN/a+m3kFzB7V0OzsT0kjgPRj47UQAAAAAAADAaysRS24t3z27no8jXXN77mj07Ho+jvSdO3NXo2fX83Gk4U8PxWJVIQ==
+  </data>
+    </layer>
+    <layer id="55" name="tileset8_1" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJzt0E1TQWEYh/HzEWzkpWRPpBdaJirEUqVUalkRvbAsUuljd83Uos15Hotjzhj/a+Y3ZtzPfc/gOEoppZRSSimllFJKKaVmVTDgOEsIIYwIoljGCmJYtczigd9b87bvRQnuJLGGHHawjgw2sIkty2wbWaSQdnljmvm170W73MljD1XUsI8DHKKEsmVWwREKKLq8Mc382veiOneOcYJr3OAM52jiApeW2RVaOEXD5Y1p5te+F91y5w736GOAB3TRwyOeLLNnvKCNjssb08yv/UVpxG99xxgf+MQXJvj++x9e+XzD8N/30+wppeazH211dN8=
+  </data>
+    </layer>
+    <layer id="63" name="tileset0_2" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztz9EJwCAQRMHDShJ7SOy/s1wFKhIQYQYW3u9GAAAAAAAAAH+pJeLK3aXfp5v5uNIt9+TeQZ9u5uNKw04fpWELYQ==
+  </data>
+    </layer>
+    <layer id="51" name="enemy" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJztzqEKhWAQhFG1XItGb9GiUYsWff8nc/Iw5QeDyHdgYBl2YasKAAAAAAAAAAB8Ra001nVKr/yUNvQ++14Jv03/pO4tBuVv3awsyqhMoffZ90r4bfondW+xKpt1p3Ipu3KE3mffK+G36Z/UAQCecQOSQgYE
+  </data>
+    </layer>
+    <layer id="52" name="front" width="80" height="26">
+        <data encoding="base64" compression="zlib">
+   eJzt0LkNgEAQBMHNYMPiiYEnBp78xXp3FhZ4VdKo/YkAAAAAAADgL0NGjNk61eauvFvqozVbt9relXdHfXRm61W7uwJ86QHyAQot
+  </data>
+    </layer>
+    <objectgroup id="37" name="objects">
+        <properties>
+            <property name="BGM" value=""/>
+            <property name="bg_back" value="0"/>
+            <property name="bg_front" value="0"/>
+            <property name="defaultCharaMax" type="int" value="8"/>
+            <property name="defaultCharaRnd" type="float" value="0.4"/>
+        </properties>
+        <object id="22" name="gate0" type="gate" x="3360" y="1920" width="192" height="192">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="map_401"/>
+                <property name="data2" value="gate3"/>
+                <property name="enemy_action" value="true"/>
+            </properties>
+        </object>
+        <object id="23" name="gate1" type="gate" x="3552" y="1920" width="192" height="192">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="map_401"/>
+                <property name="data2" value="gate4"/>
+                <property name="enemy_action" value="true"/>
+            </properties>
+        </object>
+        <object id="24" name="train0" type="object" x="1920" y="1920" width="192" height="192">
+            <properties>
+                <property name="creampied_talk" value=""/>
+                <property name="csb" value="empty"/>
+                <property name="damaged_talk" value=""/>
+                <property name="data" value="train_in_2"/>
+                <property name="data2" value="gate3"/>
+                <property name="dead_talk" value=""/>
+                <property name="depth" value=""/>
+                <property name="depthFront" value="0"/>
+                <property name="detail" value=""/>
+                <property name="direction" value=""/>
+                <property name="disp_name" value=""/>
+                <property name="disp_name_type" value="map"/>
+                <property name="disp_name_value" value="map_082"/>
+                <property name="enemy_action" value="true"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+                <property name="objectCoin" value="0"/>
+                <property name="objectHP" value="0"/>
+                <property name="objectHeart" value="0"/>
+                <property name="objectItemId" value="0"/>
+                <property name="tag" value=""/>
+            </properties>
+        </object>
+        <object id="25" name="train1" type="object" x="2592" y="1920" width="192" height="192">
+            <properties>
+                <property name="creampied_talk" value=""/>
+                <property name="csb" value="empty"/>
+                <property name="damaged_talk" value=""/>
+                <property name="data" value="train_in_2"/>
+                <property name="data2" value="gate3"/>
+                <property name="dead_talk" value=""/>
+                <property name="depth" value=""/>
+                <property name="depthFront" value="0"/>
+                <property name="detail" value=""/>
+                <property name="direction" value=""/>
+                <property name="disp_name" value=""/>
+                <property name="disp_name_type" value="map"/>
+                <property name="disp_name_value" value="map_082"/>
+                <property name="enemy_action" value="true"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+                <property name="objectCoin" value="0"/>
+                <property name="objectHP" value="0"/>
+                <property name="objectHeart" value="0"/>
+                <property name="objectItemId" value="0"/>
+                <property name="tag" value=""/>
+            </properties>
+        </object>
+    </objectgroup>
+</map>

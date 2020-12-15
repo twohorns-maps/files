@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="22" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="16" nextobjectid="12">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2206" name="tileset_04" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_04.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2647" name="tileset_05" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_05.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="7" name="bg_1" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPWMzKwLAEiBexEscmFuwAqt0JxNtZiWMTC84C1Z4D4jOsxLFHw4G0cBgF1AUA1uE1KQ==
+  </data>
+ </layer>
+ <layer id="14" name="ts2" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+YBkrA8Ny1oF2xSgYBbQDAOC3AVg=
+  </data>
+ </layer>
+ <layer id="8" name="wall" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYECAx2zkYUKAGDXk6Bk1d+ia+4gVSAPxQ1bi2OS4ZSQBAF9cJFE=
+  </data>
+ </layer>
+ <layer id="9" name="bg_0" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwV8Y4Xg70D8A4h/slLHXG42COYBYl4g5mOjjrkKbBCsCMRKQKxMJXNHAekAALAvBg0=
+  </data>
+ </layer>
+ <layer id="13" name="toilet" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAw2WstLG3F1o5k4G8qdQwa7zaGasAPJX0sgPo4A4AACC1QTK
+  </data>
+ </layer>
+ <layer id="10" name="enemy" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHUAAAPIAAE=
+  </data>
+ </layer>
+ <layer id="15" name="ts5" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAf6ONiYOgH4glAPJGLjhaPglEwzAEABEgCZw==
+  </data>
+ </layer>
+ <layer id="11" name="front" width="22" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFdAdcDAyMXNQ3VhRophgNzNUCmqlNA3PtgWY60MDckQgAGb4BUQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="1"/>
+   <property name="defaultCharaRnd" type="float" value="0.5"/>
+   <property name="warning" value="false"/>
+  </properties>
+  <object id="2" name="gate0" type="gate" x="480" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_469"/>
+    <property name="data2" value="gate1"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="object_toilet" type="object" x="1248" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="object_toileDoor"/>
+    <property name="data" value="common_toilet"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectHP" type="int" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

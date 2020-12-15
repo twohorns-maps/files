@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="45" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="77" nextobjectid="19">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="67" name="bg_1" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztidENQFAUxe7fWRk7YAfsgB08O2ARXeD+H/KaNGnSiG/TKaLBVn6dMfJ6HOTXGQtvwll+nbHzVtzk1xkn78Aiv854eBfe8utK5a+8KZSk/g==
+  </data>
+ </layer>
+ <layer id="68" name="wall" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAx2yoND4AUkNPjMtdxLh1IMGom+kDRt1MHzCc3JzMzsCQAsSp7IOPPYcDtz9IKZ/pCQZ7OhiOAACcQD2L
+  </data>
+ </layer>
+ <layer id="69" name="ex" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzMcNhEAQRNG5ddbYEICFELAhYJYQsOnwg+iWEJovvVNJ5dw3C8S5EBFiJEjFbtMo4ytHgR9KVGK3aVTz1aBFhx6D2G0ajXxNmLHgj1XsNo02vnYcOHHhFrvN5/O9uweqw1M1
+  </data>
+ </layer>
+ <layer id="70" name="ex2" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzTEBgDAUA9G/1TQVUUSACCqCiigiYCEGsqRkorfe8CL+1ZIicvr2uStwV2Krz90Gdye2+twdcCux1efuhNuIrT53He5FbPW5u+E+xFbfbDbSCzSmH+o=
+  </data>
+ </layer>
+ <layer id="72" name="tileset_02" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALagX1sDAz7gfgAG24xQnx8ZtECXAaafwWIr7LhFiPEx2fWKBgFlAIAfjgYUg==
+  </data>
+ </layer>
+ <layer id="76" name="green" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4AwWMk80C7ADvC5a98gdTM+d10epG7G564Xg9TN+Nz1d5C6ebC6axQMPgAARp8IXQ==
+  </data>
+ </layer>
+ <layer id="73" name="cartain" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjbkNgEAQAze8hKcGniZogiZogiaomY1X1o2Q9hJ0IznwBLbZvxmK2eiZPHPRjnptqwWLb6+ezbMX7ajXtlpziJ/oqJPP5hQ/0VEnn80lfqKjTj6bW/xER518No/4iY46+U7nKy/whw+1
+  </data>
+ </layer>
+ <layer id="74" name="enemy" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAm4g5iFRDScQcxFQh0sNNYACECuSqEYOiOUJqMOlhhrAFIjNSFRjDMQmBNThUjMKRsFwBwAZ9wO4
+  </data>
+ </layer>
+ <layer id="75" name="front" width="45" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwXmszMwLADihexDx/4tQLVbgXjbALmZHPtPAtWeAuLTA+Rmcuy/B1R7H4gfDJCbybH/M1DtFyD+OkBuJsd+Dg4GBk4g5uKgnbsGs/2jYOgCALN1GOU=
+  </data>
+ </layer>
+ <objectgroup id="46" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="3"/>
+   <property name="defaultCharaRnd" type="float" value="0.6"/>
+  </properties>
+  <object id="2" name="gate1" type="gate" x="3552" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_024"/>
+    <property name="data2" value="gate2"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="gate0" type="gate" x="480" y="480" width="288" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_024"/>
+    <property name="data2" value="gate1"/>
+    <property name="enemy_action" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="pos_recovery" type="position" x="1632" y="576" width="96" height="96">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+   </properties>
+  </object>
+  <object id="18" name="object1" type="object" x="2688" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="object_trash"/>
+    <property name="data" value="trash"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="toilet"/>
+    <property name="objectCoin" value="20"/>
+    <property name="objectHP" value="8"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

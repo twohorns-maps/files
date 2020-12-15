@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="60" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="109" nextobjectid="53">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2206" name="tileset_04" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_04.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="2647" name="tileset_05" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_05.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3088" name="tileset_06" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_06.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3529" name="tileset_07" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_07.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="3970" name="tileset_08" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_08.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="4411" name="tileset_09" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_09.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="75" name="wall" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOGvgHD6YHINceartv1L+0AaP+HRgw6t+hbQ8hQE//lgFxORBXYGHjkyOkB53Gp2+whPsoGAWDEQAAUwIuTw==
+  </data>
+ </layer>
+ <layer id="92" name="ts7" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjbENw0AMA7WAXzvY2SHODrZ3iLN/H6cKvzDwkP6lTpUOIECIIEWU3HwL0QX9ivajrCLvl9Pp7bd7UUxMVCBm7UdZRd6L0+ntt3tRzPi3QA/WfpRV5H1xOr39di+KJ/6t0Iu1tzLpV6djbUSy4d8OHay9lUm/Ox1rI5I3/p3Qh7W3MulPp2NtJEmS3PwBZUtOTA==
+  </data>
+ </layer>
+ <layer id="100" name="ts2" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzrkNhEAQBdFxiJ0zBGAhBM4QOJYQlisUykNazUhtjtElPa9b+sZo2lsYGBMhRoIUWSC/k/77Us62AiU+qFBb9rrupP++1LCtRYceA0bLXted9N+XJrbNWLDii82y13Un/felH9t2HDhx4bbsdd1J/zVN0/57AHMWQN4=
+  </data>
+ </layer>
+ <layer id="101" name="ts2_1" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzrkNwzAMRmE2ko8RfI7gIxkhsZP9F4ntpPfrDAQSwFIFH/B1JPCLWNbVx4ls2HHgi5/T32n/U8l5EY8MOQqUXn+n/U+lim01GrTo0Af2xu60/6k0sG3EhBk33AN7Y3fa/1R6sO2JBSteeAf2xu60/5ZlWf+dN8AeEA==
+  </data>
+ </layer>
+ <layer id="102" name="ts2_2" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjrENgEAQw75iKxgChoAhYAgYAtak/AJHpExxLq1YSmtF0RmHr5vAqZ3bpzDDtwWc2rl9Cit828CpndunsMO3A5zauX0KJ3y7wKmd26dww7cHnNq5fVEU/7yz/BDh
+  </data>
+ </layer>
+ <layer id="103" name="ts2_3" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztzrkJgEAQRuGNphub9GrBqwWvXO1BrcgHm2i4CqLwf/CymWGcExH5v9zu78bsJpRSZs9uvaXhx4lmWgL/LZgvqaLa/K2vG/lxpY32wH9b5jvqaTB/6yyyayIS7gD4YxDM
+  </data>
+ </layer>
+ <layer id="104" name="ts5" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUYAOTuAbaBaOAFiAJGK/JVIzb5UCzlkLxYATlQHdVUNFte4Bm7YLiwQh6gO7qpaLbLgLNOg/Fo2AUjALcAABe3wqQ
+  </data>
+ </layer>
+ <layer id="105" name="ts9" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuICv4PCwg1iQRAe30MMOYkE5HdxCDzuIBT10cAs97CAWLKSDW+hhB7FgGx3cQg87iAWn6eAWetgxCkbBcAEA7v4Ilw==
+  </data>
+ </layer>
+ <layer id="106" name="ts7_1" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6OAsLwPDOd7Bbya1wCOgux5T2W20MJNa4DvQXT+o7DZamDkKRsEoGAWjYBQMFQAAqK4LOw==
+  </data>
+ </layer>
+ <layer id="107" name="ts6" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQArI42FgMABiQ56Bdgl9QDPQn65A7DZC/DsD6M8oII4eIf4dBaOAGgAAcIoDlw==
+  </data>
+ </layer>
+ <layer id="108" name="ts3" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNSBNQcDgw0Q23IMtEvoAwKA/gwE4qAR4t9RMAoGOwAAV6kB2A==
+  </data>
+ </layer>
+ <layer id="99" name="front" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALSwRpOBoa1nAPtCvqBg0C/HhpB/r0G9Ov1EeTf10C/vhlB/h0Fo4DaAABScgap
+  </data>
+ </layer>
+ <objectgroup id="37" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="4"/>
+   <property name="defaultCharaRnd" type="float" value="0.5"/>
+  </properties>
+  <object id="48" name="gate0" type="gate" x="2928" y="480" width="288" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="map_445"/>
+    <property name="data2" value="gate0"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

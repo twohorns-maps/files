@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-up" width="28" height="11" tilewidth="96" tileheight="96" infinite="0" nextlayerid="81" nextobjectid="28">
+ <tileset firstgid="1" name="enemy" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_enemy.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="442" name="tileset_00" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_00.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="883" name="tileset_01" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_01.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1324" name="tileset_02" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_02.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="1765" name="tileset_03" tilewidth="96" tileheight="96" tilecount="441" columns="21">
+  <image source="tileset_03.png" trans="ff00ff" width="2048" height="2048"/>
+ </tileset>
+ <layer id="74" name="bg_1" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztisENQFAUBPf03hE9oIdPD+j/jh74B1vCJnuQiEkmmcMA73MEcNI9vFa5+VZ6hdcqbQIdbdJrlYHvSPv0WmXiO9OSXqusfDe6pNc/3+MBnP8x/w==
+  </data>
+ </layer>
+ <layer id="75" name="wall" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFj9moiwkBYtQQC0btG7WPFvalsDMwpAJxMjtlbGq6fRRgBwC4myZ5
+  </data>
+ </layer>
+ <layer id="76" name="bg_0" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxHoszMwGLDTzz4XoF2udLQvEmhXFB3tGwVDAwAAVzoBxg==
+  </data>
+ </layer>
+ <layer id="77" name="bg_ex" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjbkNgEAMBJ3ghRb4eoAioAgoAjrnK4DNNuIkJ0Q30mgCr2SzTMZsgNkINcLj37eDt5Ne9HZtJ/6YoUaoEvuCN6egJbRd2BVqhD6xr3lraEs7aLuxO9TMP7z2Agx9
+  </data>
+ </layer>
+ <layer id="80" name="bg_2" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwGWsTIwLGclT2wUjIJRgB0AAB25BAY=
+  </data>
+ </layer>
+ <layer id="78" name="enemy" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwGwAjEbEWLUAlJALE2EGLWAPhAbECE2CoY3AAC9igE/
+  </data>
+ </layer>
+ <layer id="79" name="front" width="28" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhAQAE0AAB
+  </data>
+ </layer>
+ <objectgroup id="37" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="1"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="1"/>
+   <property name="defaultCharaRnd" type="float" value="0.4"/>
+  </properties>
+  <object id="2" name="gate0" type="gate" x="576" y="480" width="192" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="map_006"/>
+    <property name="data2" value="gate1"/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value="manami_xxx"/>
+   </properties>
+  </object>
+  <object id="13" name="object0" type="object" x="1728" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="15" name="object1" type="object" x="1824" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="16" name="object2" type="object" x="1920" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="17" name="object3" type="object" x="2016" y="480" width="96" height="192">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="locker"/>
+    <property name="data2" value="0"/>
+    <property name="direction" value="right"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="word"/>
+    <property name="disp_name_value" value="locker"/>
+   </properties>
+  </object>
+  <object id="21" name="default1" type="default" x="576" y="768" width="96" height="96">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="remove_all_chara"/>
+    <property name="data2" value="0"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value="manami_xxx"/>
+   </properties>
+  </object>
+  <object id="22" name="chara0" type="chara" x="1344" y="480" width="288" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="chara/chara_000"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="manami_xxx"/>
+    <property name="data2" value="0"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value=""/>
+    <property name="detail" value="manami"/>
+    <property name="direction" value="left"/>
+    <property name="disp_name" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value="manami_xxx"/>
+    <property name="objectHP" value="1869615272"/>
+    <property name="tag" value="manami"/>
+   </properties>
+  </object>
+  <object id="24" name="gate0_" type="object" x="576" y="432" width="192" height="240">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="manami_xxx_door"/>
+    <property name="data2" value="gate1"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value=""/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value="map"/>
+    <property name="disp_name_value" value="map_006"/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value="manami_xxx"/>
+    <property name="objectHP" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="box1" type="object" x="960" y="576" width="96" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="object_box"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="3"/>
+    <property name="objectHP" value="6"/>
+    <property name="objectHeart" value="1"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="box2" type="object" x="1056" y="576" width="96" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="object_box"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="3"/>
+    <property name="objectHP" value="6"/>
+    <property name="objectHeart" value="1"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="27" name="box3" type="object" x="2112" y="576" width="96" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="object_box"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="objectCoin" value="3"/>
+    <property name="objectHP" value="6"/>
+    <property name="objectHeart" value="1"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
